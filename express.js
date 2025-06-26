@@ -19,5 +19,7 @@ app.listen(port, () => {
   console.log(`Hello from feature branch`) // feature conflict
   const fileName = req.query.fileName;
     // const data = await fs.readFileSync(fileName, 'utf-8');
-  // conflict from feature
+  // conflict new
 })
+
+// this is feature
