@@ -16,6 +16,8 @@ app.get('/', async (req, res) => {
 
 
 app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`) // feature conflict
   const fileName = req.query.fileName;
     // const data = await fs.readFileSync(fileName, 'utf-8');
+  // conflict
 })
